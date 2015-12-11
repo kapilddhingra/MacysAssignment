@@ -680,6 +680,7 @@
 				F3AEE0911C18F18B00F76478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3AEE0921C18F18B00F76478 /* Build configuration list for PBXNativeTarget "MacysAssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -688,6 +689,7 @@
 				F3AEE0941C18F18B00F76478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
