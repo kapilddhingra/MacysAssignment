@@ -10,4 +10,8 @@
 
 @interface LongForm : NSObject
 
+@property (nonatomic) NSString *name;
+
+- (instancetype)initWithAttributes:(NSDictionary *)attributes;
+
 @end

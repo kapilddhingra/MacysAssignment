@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MBProgressHUD.h"
 
 @interface HUDUtility : NSObject
 
++ (void) configureErrorHUD:(MBProgressHUD *)hud;
++ (void) configureSearchHUD:(MBProgressHUD *)hud;
 @end

@@ -10,4 +10,15 @@
 
 @implementation LongForm
 
+- (instancetype)initWithAttributes:(NSDictionary *)attributes
+{
+    self = [super init];
+    if (!self) {
+        return nil;
+    }
+    self.name = [attributes valueForKeyPath:@"name"];
+    return self;
+}
+
+
 @end
